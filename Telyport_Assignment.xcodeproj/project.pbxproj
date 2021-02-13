@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF03D0D625D7BE9900882EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03D0D525D7BE9900882EA5 /* AppDelegate.swift */; };
+		BF03D0D825D7BE9900882EA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03D0D725D7BE9900882EA5 /* SceneDelegate.swift */; };
+		BF03D0DA25D7BE9900882EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03D0D925D7BE9900882EA5 /* ViewController.swift */; };
+		BF03D0DD25D7BE9900882EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF03D0DB25D7BE9900882EA5 /* Main.storyboard */; };
+		BF03D0DF25D7BE9B00882EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF03D0DE25D7BE9B00882EA5 /* Assets.xcassets */; };
+		BF03D0E225D7BE9B00882EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF03D0E025D7BE9B00882EA5 /* LaunchScreen.storyboard */; };
+		BF03D0ED25D7BE9B00882EA5 /* Telyport_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03D0EC25D7BE9B00882EA5 /* Telyport_AssignmentTests.swift */; };
+		BF03D0F825D7BE9B00882EA5 /* Telyport_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03D0F725D7BE9B00882EA5 /* Telyport_AssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF03D0E925D7BE9B00882EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF03D0CA25D7BE9900882EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF03D0D125D7BE9900882EA5;
+			remoteInfo = Telyport_Assignment;
+		};
+		BF03D0F425D7BE9B00882EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF03D0CA25D7BE9900882EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF03D0D125D7BE9900882EA5;
+			remoteInfo = Telyport_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF03D0D225D7BE9900882EA5 /* Telyport_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telyport_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF03D0D525D7BE9900882EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF03D0D725D7BE9900882EA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF03D0D925D7BE9900882EA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF03D0DC25D7BE9900882EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF03D0DE25D7BE9B00882EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF03D0E125D7BE9B00882EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF03D0E325D7BE9B00882EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF03D0E825D7BE9B00882EA5 /* Telyport_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telyport_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF03D0EC25D7BE9B00882EA5 /* Telyport_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telyport_AssignmentTests.swift; sourceTree = "<group>"; };
+		BF03D0EE25D7BE9B00882EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF03D0F325D7BE9B00882EA5 /* Telyport_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telyport_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF03D0F725D7BE9B00882EA5 /* Telyport_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telyport_AssignmentUITests.swift; sourceTree = "<group>"; };
+		BF03D0F925D7BE9B00882EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF03D0CF25D7BE9900882EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF03D0E525D7BE9B00882EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF03D0F025D7BE9B00882EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF03D0C925D7BE9900882EA5 = {
+			isa = PBXGroup;
+			children = (
+				BF03D0D425D7BE9900882EA5 /* Telyport_Assignment */,
+				BF03D0EB25D7BE9B00882EA5 /* Telyport_AssignmentTests */,
+				BF03D0F625D7BE9B00882EA5 /* Telyport_AssignmentUITests */,
+				BF03D0D325D7BE9900882EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF03D0D325D7BE9900882EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF03D0D225D7BE9900882EA5 /* Telyport_Assignment.app */,
+				BF03D0E825D7BE9B00882EA5 /* Telyport_AssignmentTests.xctest */,
+				BF03D0F325D7BE9B00882EA5 /* Telyport_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF03D0D425D7BE9900882EA5 /* Telyport_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				BF03D0D525D7BE9900882EA5 /* AppDelegate.swift */,
+				BF03D0D725D7BE9900882EA5 /* SceneDelegate.swift */,
+				BF03D0D925D7BE9900882EA5 /* ViewController.swift */,
+				BF03D0DB25D7BE9900882EA5 /* Main.storyboard */,
+				BF03D0DE25D7BE9B00882EA5 /* Assets.xcassets */,
+				BF03D0E025D7BE9B00882EA5 /* LaunchScreen.storyboard */,
+				BF03D0E325D7BE9B00882EA5 /* Info.plist */,
+			);
+			path = Telyport_Assignment;
+			sourceTree = "<group>";
+		};
+		BF03D0EB25D7BE9B00882EA5 /* Telyport_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF03D0EC25D7BE9B00882EA5 /* Telyport_AssignmentTests.swift */,
+				BF03D0EE25D7BE9B00882EA5 /* Info.plist */,
+			);
+			path = Telyport_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		BF03D0F625D7BE9B00882EA5 /* Telyport_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF03D0F725D7BE9B00882EA5 /* Telyport_AssignmentUITests.swift */,
+				BF03D0F925D7BE9B00882EA5 /* Info.plist */,
+			);
+			path = Telyport_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF03D0D125D7BE9900882EA5 /* Telyport_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF03D0FC25D7BE9B00882EA5 /* Build configuration list for PBXNativeTarget "Telyport_Assignment" */;
+			buildPhases = (
+				BF03D0CE25D7BE9900882EA5 /* Sources */,
+				BF03D0CF25D7BE9900882EA5 /* Frameworks */,
+				BF03D0D025D7BE9900882EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telyport_Assignment;
+			productName = Telyport_Assignment;
+			productReference = BF03D0D225D7BE9900882EA5 /* Telyport_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF03D0E725D7BE9B00882EA5 /* Telyport_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF03D0FF25D7BE9B00882EA5 /* Build configuration list for PBXNativeTarget "Telyport_AssignmentTests" */;
+			buildPhases = (
+				BF03D0E425D7BE9B00882EA5 /* Sources */,
+				BF03D0E525D7BE9B00882EA5 /* Frameworks */,
+				BF03D0E625D7BE9B00882EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF03D0EA25D7BE9B00882EA5 /* PBXTargetDependency */,
+			);
+			name = Telyport_AssignmentTests;
+			productName = Telyport_AssignmentTests;
+			productReference = BF03D0E825D7BE9B00882EA5 /* Telyport_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF03D0F225D7BE9B00882EA5 /* Telyport_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF03D10225D7BE9B00882EA5 /* Build configuration list for PBXNativeTarget "Telyport_AssignmentUITests" */;
+			buildPhases = (
+				BF03D0EF25D7BE9B00882EA5 /* Sources */,
+				BF03D0F025D7BE9B00882EA5 /* Frameworks */,
+				BF03D0F125D7BE9B00882EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF03D0F525D7BE9B00882EA5 /* PBXTargetDependency */,
+			);
+			name = Telyport_AssignmentUITests;
+			productName = Telyport_AssignmentUITests;
+			productReference = BF03D0F325D7BE9B00882EA5 /* Telyport_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF03D0CA25D7BE9900882EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF03D0D125D7BE9900882EA5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BF03D0E725D7BE9B00882EA5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF03D0D125D7BE9900882EA5;
+					};
+					BF03D0F225D7BE9B00882EA5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF03D0D125D7BE9900882EA5;
+					};
+				};
+			};
+			buildConfigurationList = BF03D0CD25D7BE9900882EA5 /* Build configuration list for PBXProject "Telyport_Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF03D0C925D7BE9900882EA5;
+			productRefGroup = BF03D0D325D7BE9900882EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF03D0D125D7BE9900882EA5 /* Telyport_Assignment */,
+				BF03D0E725D7BE9B00882EA5 /* Telyport_AssignmentTests */,
+				BF03D0F225D7BE9B00882EA5 /* Telyport_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF03D0D025D7BE9900882EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF03D0E225D7BE9B00882EA5 /* LaunchScreen.storyboard in Resources */,
+				BF03D0DF25D7BE9B00882EA5 /* Assets.xcassets in Resources */,
+				BF03D0DD25D7BE9900882EA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF03D0E625D7BE9B00882EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF03D0F125D7BE9B00882EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF03D0CE25D7BE9900882EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF03D0DA25D7BE9900882EA5 /* ViewController.swift in Sources */,
+				BF03D0D625D7BE9900882EA5 /* AppDelegate.swift in Sources */,
+				BF03D0D825D7BE9900882EA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF03D0E425D7BE9B00882EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF03D0ED25D7BE9B00882EA5 /* Telyport_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF03D0EF25D7BE9B00882EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF03D0F825D7BE9B00882EA5 /* Telyport_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF03D0EA25D7BE9B00882EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF03D0D125D7BE9900882EA5 /* Telyport_Assignment */;
+			targetProxy = BF03D0E925D7BE9B00882EA5 /* PBXContainerItemProxy */;
+		};
+		BF03D0F525D7BE9B00882EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF03D0D125D7BE9900882EA5 /* Telyport_Assignment */;
+			targetProxy = BF03D0F425D7BE9B00882EA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF03D0DB25D7BE9900882EA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF03D0DC25D7BE9900882EA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF03D0E025D7BE9B00882EA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF03D0E125D7BE9B00882EA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF03D0FA25D7BE9B00882EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF03D0FB25D7BE9B00882EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF03D0FD25D7BE9B00882EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
+				INFOPLIST_FILE = Telyport_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.next.practice.Telyport-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF03D0FE25D7BE9B00882EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
+				INFOPLIST_FILE = Telyport_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.next.practice.Telyport-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF03D10025D7BE9B00882EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
+				INFOPLIST_FILE = Telyport_AssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.next.practice.Telyport-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telyport_Assignment.app/Telyport_Assignment";
+			};
+			name = Debug;
+		};
+		BF03D10125D7BE9B00882EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
+				INFOPLIST_FILE = Telyport_AssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.next.practice.Telyport-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telyport_Assignment.app/Telyport_Assignment";
+			};
+			name = Release;
+		};
+		BF03D10325D7BE9B00882EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
+				INFOPLIST_FILE = Telyport_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.next.practice.Telyport-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telyport_Assignment;
+			};
+			name = Debug;
+		};
+		BF03D10425D7BE9B00882EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
+				INFOPLIST_FILE = Telyport_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.next.practice.Telyport-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telyport_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF03D0CD25D7BE9900882EA5 /* Build configuration list for PBXProject "Telyport_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF03D0FA25D7BE9B00882EA5 /* Debug */,
+				BF03D0FB25D7BE9B00882EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF03D0FC25D7BE9B00882EA5 /* Build configuration list for PBXNativeTarget "Telyport_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF03D0FD25D7BE9B00882EA5 /* Debug */,
+				BF03D0FE25D7BE9B00882EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF03D0FF25D7BE9B00882EA5 /* Build configuration list for PBXNativeTarget "Telyport_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF03D10025D7BE9B00882EA5 /* Debug */,
+				BF03D10125D7BE9B00882EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF03D10225D7BE9B00882EA5 /* Build configuration list for PBXNativeTarget "Telyport_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF03D10325D7BE9B00882EA5 /* Debug */,
+				BF03D10425D7BE9B00882EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF03D0CA25D7BE9900882EA5 /* Project object */;
+}
