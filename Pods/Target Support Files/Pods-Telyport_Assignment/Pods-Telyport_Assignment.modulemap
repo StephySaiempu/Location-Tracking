@@ -1,0 +1,6 @@
+framework module Pods_Telyport_Assignment {
+  umbrella header "Pods-Telyport_Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

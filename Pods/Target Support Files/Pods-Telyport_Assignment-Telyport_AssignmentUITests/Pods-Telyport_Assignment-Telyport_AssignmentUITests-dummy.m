@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Telyport_Assignment_Telyport_AssignmentUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Telyport_Assignment_Telyport_AssignmentUITests
+@end
